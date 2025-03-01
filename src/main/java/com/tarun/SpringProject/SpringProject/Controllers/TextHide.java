@@ -23,7 +23,7 @@ import java.util.Map;
 
 
 @RestController
-@CrossOrigin(origins = {"http://16.171.134.100","http://16.171.134.100:3000","http://16.171.134.100:3001","http://16.171.134.100:3002","http://16.171.134.100:3003", "http://hidenreveal.duckdns.org", "http://hidenreveal.duckdns.org:3000", "http://hidenreveal.duckdns.org:3001", "http://hidenreveal.duckdns.org:3002", "http://hidenreveal.duckdns.org:3003"})
+@CrossOrigin(origins = {"http://localhost"})
 public class TextHide {
 
     private static final Logger logger = LoggerFactory.getLogger(TextHide.class);
