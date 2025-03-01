@@ -1,0 +1,3 @@
+option_settings:
+  aws:elasticbeanstalk:application:environment:
+    AWS_MAX_UPLOAD_SIZE: 1000M
