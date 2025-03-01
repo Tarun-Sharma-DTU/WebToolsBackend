@@ -23,7 +23,7 @@ import java.util.Map;
 
 
 @RestController
-@CrossOrigin(origins = {"http://localhost"})
+@CrossOrigin(origins = {"http://localhost", "https://hidenrevealapp.netlify.app"})
 public class TextHide {
 
     private static final Logger logger = LoggerFactory.getLogger(TextHide.class);
