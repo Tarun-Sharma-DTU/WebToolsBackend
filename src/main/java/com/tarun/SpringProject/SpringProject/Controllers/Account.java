@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost", "https://hidenrevealapp.netlify.app"})
+@CrossOrigin(origins = {"http://localhost", "https://hidenrevealapp.netlify.app", "https://iamscrappy.netlify.app/"})
 public class Account {
 
     @Autowired
