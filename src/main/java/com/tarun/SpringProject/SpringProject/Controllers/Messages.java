@@ -15,7 +15,7 @@ import java.util.HashSet;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = {"http://16.171.134.100","http://16.171.134.100:3000","http://16.171.134.100:3001","http://16.171.134.100:3002","http://16.171.134.100:3003", "http://hidenreveal.duckdns.org", "http://hidenreveal.duckdns.org:3000", "http://hidenreveal.duckdns.org:3001", "http://hidenreveal.duckdns.org:3002", "http://hidenreveal.duckdns.org:3003"})
+@CrossOrigin(origins = {"https://blinkchatmsg.netlify.app/"})
 public class Messages {
 
     @Autowired
